@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+body {
+  font-family: Helvetica;
+  background-color: #18191a;
+  /* height: 5000px; */
+}
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-track {
+  background: #202020;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #373737;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+nav:first-of-type{
+     position: sticky;
+    top: 0;
+    z-index: 99999;
+  
+}
+nav {
+  padding-left: 0;
+  background-color: #242526;
+  border-bottom: 1px solid #353637;
+
+}
+.nav .row {
+  padding-top: 0.5rem;
+}
+.nav .col-md-3.one {
+  padding-right: 0;
+}
+.nav-left {
+  padding-left: 0.25rem !important;
+}
+.nav-left li:first-child i {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+}
+.nav-left .search {
+  display: flex;
+  align-items: center;
+}
+.nav-left form input {
+  margin-left: 0.5rem;
+  font-size: 0.9375rem;
+  padding: 0.53125rem 0 0.53125rem 2.125rem;
+  background-color: #3a3b3c;
+  caret-color: rgb(176, 179, 184);
+  color: white;
+  outline: none;
+  border: none;
+     width: 100%; 
+
+}
+.nav-left form input::placeholder {
+  font-size: 0.875rem;
+  color: #b0b3b8;
+  transition: 0.3s all;
+}
+.nav-left form input:focus::placeholder {
+  color: #838689;
+}
+.nav-left .search i {
+  color: rgb(176, 179, 184);
+  left: 1.25rem;
+}
+
+.nav-middle ul{
+  justify-content: center;
+}
+.nav-middle li{
+  margin-right: 0.75rem;
+
+}
+.nav-middle li a{
+  display: block;
+  padding: 0.75rem 2.625rem;
+  transition: 0.3s all;
+  border-radius: 8px;
+}
+.nav-middle li a:hover{
+  background-color: #303338;
+}
+
+
+.nav-middle li i {
+  font-size: 1.25rem;
+  color: #b0b3b8;
+}
+.nav-right {
+  padding-right: 0.25rem;
+  width: 100%;
+}
+.nav-right li {
+  padding: 0 0 0 0.5rem;
+}
+.nav-right li i,
+.nav-right img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  color: #e4e6eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  background-color: #3a3b3c;
+  transition: 0.3s all;
+}
+.nav-right li:hover i,
+.news-feed .stories > a:hover i {
+  background-color: #444950;
+}
+.nav-right li:nth-child(3) i {
+  background-color: #263951;
+  color: #2e89ff;
+}
+/* end nav  */
+/* start content  */
+
+.content .row {
+  padding-left: 0;
+  padding-right: 0;
+}
+.content .col-lg-6 {
+  padding-left: 5.75rem;
+  padding-right: 5.75rem;
+}
+@media (max-width: 1199px) {
+  .content .col-lg-6 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .content .col-md-6 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+.content .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.content .notifications {
+  background-color: #242526;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+.nav-tabs {
+  border-bottom: none;
+  margin-left: 0.5rem;
+  margin-top: 0.25rem;
+}
+.nav-tabs .nav-link {
+  color: #e4e6eb;
+  padding: 0.4325rem 0.675rem;
+  border-radius: 18px;
+  font-size: 1rem;
+}
+.nav-tabs .nav-item:hover {
+  border: none;
+}
+.nav-tabs .nav-link:hover {
+  border: none;
+}
+.nav-tabs .nav-link:focus {
+  border: none;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #2d88ff;
+  background-color: #263951;
+  border: none;
+}
+.content .notifications h1 {
+  color: #e4e6eb;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 1rem 1rem 0 1rem;
+}
+.ellipses {
+  color: #838689;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-size: 1.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s all;
+  margin-right: 1rem;
+}
+.ellipses:hover {
+  background-color: #444950;
+}
+.earlier {
+  color: #e4e6eb;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  margin-left: 1.125rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+.content .notifications ul {
+  padding: 0 0.5rem;
+}
+.content .notifications .item {
+  color: #b0b3b8;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: 0.3s all;
+}
+.content .notifications .item:hover {
+  background-color: #444950;
+}
+.content .notifications .item:after {
+  position: absolute;
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  font-size: 0.9rem;
+  width: 1.625rem;
+  height: 1.625rem;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 3rem;
+  top: 2.875rem;
+}
+.content .notifications .comment:after {
+  content: "\f27a";
+  background-color: #3bc95e;
+}
+.content .notifications .like:after {
+  content: "\f164";
+  background-color: #026fdf;
+}
+.content .notifications .haha:after {
+  content: "\f59b";
+  background-color: #f7ab32;
+}
+.content .notifications .groups:after {
+  content: "\e533";
+  background-color: #026fdf;
+}
+.content .notifications .item .text {
+  margin-left: 0.75rem;
+}
+.content .notifications .item img {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+}
+.content .notifications .item p:first-of-type {
+  font-size: 0.9325rem;
+}
+.content .notifications .item p span {
+  font-weight: 600;
+}
+.content .notifications .item p:last-of-type {
+  font-size: 0.8rem;
+}
+.item.unread:before {
+  content: "";
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: #2e89ff;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* end content  */
+@media (max-width: 1199px) {
+  .nav-middle li {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .hide-on-mobile {
+    display: none;
+    width: 0;
+  }
+  .nav .row {
+    padding-bottom: 0.5rem;
+  }
+
+}
+@media (max-width: 768px) {
+   .nav-left form input {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    padding: 0;
+  }
+  .nav-left form input::placeholder {
+    color: transparent;
+  }
+  .nav-middle li {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .nav-right li:first-child {
+    padding-left: 0;
+  }
+
+  .nav-right ul {
+    justify-content: flex-end;
+  }
+  .nav .col-sm-3 {
+    width: 25%;
+  }
+}
+@media(max-width:576px){
+  .content .notifications ul{
+    padding-left: 0;
+    padding-right: 0;
+  }
+ 
+}

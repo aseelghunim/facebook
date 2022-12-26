@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image" href="assets/images/icon.ico">
+    <!-- Font awesome 6 -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Bootstrap 5.2 CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/create-account.css">
+
+    <!-- media query -->
+    <link rel="stylesheet" href="assets/css/media.css">
+    
+    <title>Facebook - log in or sign up</title>
+  </head>
+  <body>
+    <div class="log-in ">
+        <div class="container ">
+            <div class="row align-items-center vh-100 log-in-row">
+                <div class="col-lg-6">
+                    <div class="logo ">
+                        <img src="assets/images/logo.svg" class="text-start" alt="logo">
+                        <p class="">Connect with friends and the world around you on Facebook.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5  offset-lg-1">
+                    <div class="form  bg-white">
+                    <form action="" class="bg-white log-in-form">
+                        <input type="text" placeholder="Email or phone number">
+                        <input type="password" name="" id="" placeholder="Password">
+                        <a href="home.html" class="d-block login-link text-center text-white text-capitalize">log in</a>
+                        <a href="#" class="d-block text-center"><span class="text-capitalize">forgot</span> password?</a>
+
+
+
+                        <a href="#" class="d-block text-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><span class="text-capitalize">create</span> new account</a>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+            <div class="title">
+                <h1 class="text-capitalize mb-0">sign up</h1>
+                <p class="mb-0"><span class="text-capitalize">it's</span> quick and easy.</p>
+                </div>  
+           
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content">
+                       
+                        <form action="">
+                            <div class="row ">
+                                <div class="col-6 name1">
+                                    <input type="text" placeholder="First name" class="w-100" required>
+                                </div>
+                                <div class="col-6 name2">
+                                    <input type="text" placeholder="Last name" class="w-100 " required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="text" name="" id="" placeholder="Mobile number or email" class="w-100" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="password" name="" id="" placeholder="New password" class="w-100" required>
+                                </div>
+                            </div>
+                            <div class="birthday">
+                                <p class="text-capitalize d-flex align-items-center ">birthday <i class="fa-solid fa-question ms-1"></i></p>
+                                <div class="row">
+                                <div class="col-4 pe-0">
+                                    <select name="month" id="month">
+                                        <option value="january">Jan</option>
+                                        <option value="february">Feb</option>
+                                        <option value="march">Mar</option>
+                                        <option value="april">Apr</option>
+                                        <option value="may">May</option>
+                                        <option value="june">Jun</option>
+                                        <option value="july">Jul</option>
+                                        <option value="august" selected>Aug</option>
+                                        <option value="september">Sep</option>
+                                        <option value="ovtober">Oct</option>
+                                        <option value="november">Nov</option>
+                                        <option value="december">Dec</option>
+                                    </select>
+                                </div>
+                                <div class="col-4 pe-0">
+                                    <select name="day" id="day">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13" selected>13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                        
+                                    </select>
+                                </div>
+                                <div class="col-4">
+                                    <select name="day" id="day">
+                                        <option value="2010">2010</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2013">2013</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022" selected>2022</option>
+                                        
+                                    </select>
+                                </div>
+                              
+                            </div>
+                            </div>
+                            <div class="gender position-relative">
+                                <p class="text-capitalize d-flex align-items-center ">gender <i class="fa-solid fa-question ms-1"></i></p>
+                                <div class="row">
+                                <div class="col-4 pe-0 custom-width">
+                                    <div class="radio-option">
+                                        <label for="female">Female</label>
+                                        <input type="radio" name="gender" id="female">
+                                    </div>
+                                </div>
+                                <div class="col-4 two w-30">
+                                    <div class="radio-option">
+                                        <label for="male">Male</label>
+                                        <input type="radio" name="gender" id="male">
+                                    </div>
+                                </div>
+                                <div class="col-4 ps-0 custom-width">
+                                    <div class="radio-option">
+                                        <label for="custom">Custom</label>
+                                        <input type="radio" name="gender" id="custom">
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                            
+                        
+                        </form>
+                        <div class="text p-0 pt-2">
+                            <p class="mb-2">People who use our service may have uploaded your
+                                 contact information to Facebook. <a href="">Learn more.</a> 
+                            </p>
+                            <p>
+                                By clicking Sign Up, you agree to our  <a href="">Terms</a> ,  <a href="">Privacy Policy</a> and <a href="">Cookies Policy.</a>  You may receive SMS Notifications from us and can opt out any time.
+                            </p>
+                        </div>
+                        <a href="" class="sign-up text-capitalize mx-auto mb-2">sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+                    </form>
+                    </div>
+                    <div class="form-bottom text-center">
+                        <a href="#" class="text-center"><span class="text-capitalize">create</span> a <span class="text-capitalize">page</a><span> for a celebrity, brand or business.</span>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <!-- Bootstrap 5.2 JS  -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

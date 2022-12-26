@@ -1,0 +1,121 @@
+body{
+    font-family: Helvetica;
+    background-color: #f0f2f5;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.log-in{
+    /* padding: 0 11.25rem 0rem 9rem; */
+   
+}
+.log-in .logo{
+    padding-bottom: 8rem;
+    
+}
+.log-in .log-in-row{
+    padding-left: 2rem;
+    padding-right: 4.75rem;
+    
+}
+.log-in .logo img{
+    width: 18.8125rem;
+}
+.log-in .logo p{
+    padding-left: 1.75rem;
+    color: #1c1e21;
+    font-size: 1.75rem;
+    line-height: 1.15;
+    font-weight: normal;
+    margin-top: -0.5rem;
+}
+/* start form  */
+.log-in form.log-in-form{
+border-radius: 8px;
+padding:  1rem;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px,
+0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+
+}
+.log-in form.log-in-form input,.login-link{
+
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 6px;
+    padding: .75rem 1rem;
+    color: rgb(29, 33, 41);
+    transition: 0.3s all;
+}
+.log-in form.log-in-form input:first-child{
+    margin-bottom: 0.75rem;
+}
+
+.log-in .log-in-form input:not(.modal-content input):focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+.log-in form.log-in-form input:focus::placeholder{
+    color: #b3b5b8;
+}
+.login-link{
+    margin: 1rem 0 0.85rem;
+    background-color: #1877f2; 
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding:  0.55rem 0;
+    transition: 0.3s all;
+}
+.login-link:hover{
+    background-color: #166fe5;
+}
+.log-in .log-in-form a:nth-of-type(2):not(.modal-body a){
+    font-size: 0.875rem;
+    color: rgb(24, 119, 242);
+    transition: 0.3s all;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.log-in .log-in-form a:nth-of-type(2):not(.modal-body a):after{
+    content: "";
+    display: block;
+    position: absolute;
+   border-bottom: 1px solid #dadde1;
+    width: 100%;
+    bottom: -1.25rem;    
+}
+.log-in .log-in-form a:nth-last-of-type(2):not(.modal-body a):hover{
+    text-decoration: underline;
+}
+.log-in .log-in-form a:nth-of-type(3):not(.modal-body a){
+    background-color: #42b72a;
+    color: white;
+    font-weight: 700;
+    padding:  0.75rem 0;
+    transition: 0.3s all;
+    border-radius: 6px;
+    width: 50%;
+    margin: 2.875rem auto 0.5rem;
+}
+.log-in .log-in-form a:nth-of-type(3):not(.modal-body a):hover{
+    background-color: #36a420;
+}
+.log-in .form-bottom{
+    margin-top: 1.5rem;
+    color: #1c1e21;
+    font-size: 0.875rem;
+}
+.log-in .form-bottom a{
+    font-weight: 600;
+    color: #1c1e21;
+    transition: 0.3s all;
+}
+.log-in .form-bottom a:hover{
+    text-decoration: underline;
+}
+/* end form  */

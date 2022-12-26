@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image" href="assets/images/icon.ico" />
+    <!-- Font awesome 6 -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- Bootstrap 5.2 CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/notifications.css" />
+    <title>Notifications | Facebook</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          <div class="col-sm-3 one">
+            <div class="item nav-left">
+              <ul class="d-flex align-items-center">
+                <li>
+                  <a href="home.html"
+                    ><i
+                      class="fa-brands fa-facebook-f d-flex justify-content-center align-items-end"
+                    ></i
+                  ></a>
+                </li>
+                <li class="search w-100 position-relative">
+                  <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+                  <form action="" class="w-100">
+                    <input
+                      class="rounded-pill"
+                      type="search"
+                      name=""
+                      id=""
+                      placeholder="Search Facebook"
+                    />
+                  </form>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 justify-content-center hide-on-mobile">
+            <div class="item nav-middle ">
+              <ul class="d-flex justify-content-center align-items-center">
+                <li>
+                  <a href="home.html"><i class="fa-solid fa-house"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-tv"></i></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa-solid fa-users rounded-circle"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-chess-board"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3 d-flex">
+            <div class="item nav-right">
+              <ul class="d-flex justify-content-end align-items-center">
+                <li>
+                  <a href=""><i class="fa-solid fa-braille"></i></a>
+                </li>
+                <li>
+                  <a href="messenger.html"
+                    ><i class="fa-brands fa-facebook-messenger"></i
+                  ></a>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-bell"></i>
+                </li>
+                <li>
+                  <a href="profile.html"><img src="assets/images/profile.jpg" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3 m-auto">
+          <div class="notifications">
+            <div class="title d-flex justify-content-between align-items-center">
+              <h1 class="text-capitalize">notifications</h1>
+              <i class="fa-solid fa-ellipsis ellipses align-self-end"></i>
+            </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="all-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#all-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="all-tab-pane"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item " role="presentation">
+                <button
+                  class="nav-link"
+                  id="unread-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#unread-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="unread-tab-pane"
+                  aria-selected="false"
+                >
+                  Unread
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="all-tab-pane"
+                role="tabpanel"
+                aria-labelledby="all-tab"
+                tabindex="0">
+                <p class="text-capitalize earlier">earlier</p>
+                <ul class="pb-2">
+                  <li
+                    class="item comment position-relative d-flex align-items-center">
+                    <img src="assets/images/notifications/1.jpg" alt="" />
+                    <div class="text">
+                      <p class="mb-0">
+                        <span class="name text-capitalize">dalia gh </span
+                        >mentioned you in a comment
+                      </p>
+                      <p class="time mb-0">2 hours ago</p>
+                    </div>
+                  </li>
+                  <li
+                    class="item like position-relative d-flex align-items-center"
+                  >
+                    <img src="assets/images/notifications/2.jpg" alt="" />
+                    <div class="text">
+                      <p class="mb-0">
+                        <span class="name text-capitalize"
+                          >fayza al zentani </span
+                        >likes your comment: "بغض النظر عن طريقة التعبير..."
+                      </p>
+                      <p class="time mb-0">3 hours ago</p>
+                    </div>
+                  </li>
+                  <li
+                    class="item groups position-relative d-flex align-items-center"
+                  >
+                    <img src="assets/images/notifications/3.jpg" alt="" />
+                    <div class="text">
+                      <p class="mb-0">
+                        <span class="name text-capitalize">dalia alawneh </span
+                        >posted in <span>Full Stack | Round 4</span>
+                      </p>
+                      <p class="time mb-0">4 hours ago</p>
+                    </div>
+                  </li>
+                  <li
+                    class="item haha position-relative d-flex align-items-center"
+                  >
+                    <img src="assets/images/notifications/4.jpg" alt="" />
+                    <div class="text">
+                      <p class="mb-0">
+                        <span class="name text-capitalize">layan kharazi </span
+                        >reacted to your comment: "Layan Kharazi احنا"
+                      </p>
+                      <p class="time mb-0">5 hours ago</p>
+                    </div>
+                  </li>
+                  <li
+                    class="item haha position-relative d-flex align-items-center"
+                  >
+                    <img src="assets/images/notifications/5.jpg" alt="" />
+                    <div class="text">
+                      <p class="mb-0">
+                        <span class="name text-capitalize">raya al-kilani </span
+                        >reacted to your comment: "هههههههههههههههههههههه فعلا
+                        انتي..."
+                      </p>
+                      <p class="time mb-0">10 hours ago</p>
+                    </div>
+                  </li>
+                  <li
+                    class="item comment position-relative d-flex align-items-center"
+                  >
+                    <img src="assets/images/notifications/5.jpg" alt="" />
+                    <div class="text">
+                      <p class="mb-0">
+                        <span class="name text-capitalize">raya al-kilani </span
+                        >mentioned you in a comment
+                      </p>
+                      <p class="time mb-0">10 hours ago</p>
+                    </div>
+                  </li>
+                  <li
+                  class="item comment position-relative d-flex align-items-center">
+                  <img src="assets/images/notifications/1.jpg" alt="" />
+                  <div class="text">
+                    <p class="mb-0">
+                      <span class="name text-capitalize">dalia gh </span
+                      >mentioned you in a comment
+                    </p>
+                    <p class="time mb-0">2 hours ago</p>
+                  </div>
+                </li>
+                <li
+                  class="item like position-relative d-flex align-items-center"
+                >
+                  <img src="assets/images/notifications/2.jpg" alt="" />
+                  <div class="text">
+                    <p class="mb-0">
+                      <span class="name text-capitalize"
+                        >fayza al zentani </span
+                      >likes your comment: "بغض النظر عن طريقة التعبير..."
+                    </p>
+                    <p class="time mb-0">3 hours ago</p>
+                  </div>
+                </li>
+                <li
+                  class="item groups position-relative d-flex align-items-center"
+                >
+                  <img src="assets/images/notifications/3.jpg" alt="" />
+                  <div class="text">
+                    <p class="mb-0">
+                      <span class="name text-capitalize">dalia alawneh </span
+                      >posted in <span>Full Stack | Round 4</span>
+                    </p>
+                    <p class="time mb-0">4 hours ago</p>
+                  </div>
+                </li>
+                <li
+                  class="item haha position-relative d-flex align-items-center"
+                >
+                  <img src="assets/images/notifications/4.jpg" alt="" />
+                  <div class="text">
+                    <p class="mb-0">
+                      <span class="name text-capitalize">layan kharazi </span
+                      >reacted to your comment: "Layan Kharazi احنا"
+                    </p>
+                    <p class="time mb-0">5 hours ago</p>
+                  </div>
+                </li>
+                <li
+                  class="item haha position-relative d-flex align-items-center"
+                >
+                  <img src="assets/images/notifications/5.jpg" alt="" />
+                  <div class="text">
+                    <p class="mb-0">
+                      <span class="name text-capitalize">raya al-kilani </span
+                      >reacted to your comment: "هههههههههههههههههههههه فعلا
+                      انتي..."
+                    </p>
+                    <p class="time mb-0">10 hours ago</p>
+                  </div>
+                </li>
+                <li
+                  class="item comment position-relative d-flex align-items-center"
+                >
+                  <img src="assets/images/notifications/5.jpg" alt="" />
+                  <div class="text">
+                    <p class="mb-0">
+                      <span class="name text-capitalize">raya al-kilani </span
+                      >mentioned you in a comment
+                    </p>
+                    <p class="time mb-0">10 hours ago</p>
+                  </div>
+                </li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="unread-tab-pane"
+                role="tabpanel"
+                aria-labelledby="unread-tab"
+                tabindex="0"
+              >
+              <ul class="pb-2">
+                <li
+                  class="item comment unread position-relative d-flex align-items-center">
+                  <img src="assets/images/notifications/1.jpg" alt="" />
+                  <div class="text">
+                    <p class="mb-0">
+                      <span class="name text-capitalize">dalia gh </span
+                      >mentioned you in a comment
+                    </p>
+                    <p class="time mb-0">2 hours ago</p>
+                  </div>
+                </li>
+                <li
+                  class="item like unread position-relative d-flex align-items-center"
+                >
+                  <img src="assets/images/notifications/2.jpg" alt="" />
+                  <div class="text">
+                    <p class="mb-0">
+                      <span class="name text-capitalize"
+                        >fayza al zentani </span
+                      >likes your comment: "بغض النظر عن طريقة التعبير..."
+                    </p>
+                    <p class="time mb-0">3 hours ago</p>
+                  </div>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+
